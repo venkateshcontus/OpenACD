@@ -50,7 +50,7 @@
 
 -type(key() :: {non_neg_integer(), {pos_integer(), non_neg_integer(), non_neg_integer()}}).
 
--type(call_queue() :: gb_tree()).
+-type(call_queue() :: gb_tree:tree()).
 
 -export([
 	start/2,

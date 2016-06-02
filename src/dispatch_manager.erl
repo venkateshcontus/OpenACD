@@ -62,7 +62,7 @@
 
 -record(state, {
 	dispatchers = [] :: [pid()],
-	monitored_items = dict:new() :: dict()
+	monitored_items = dict:new() :: dict:dict()
 	}).
 	
 -type(state() :: #state{}).
